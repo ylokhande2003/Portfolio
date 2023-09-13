@@ -35,7 +35,7 @@ export const footer = () => {
                 <FaLinkedin size={30} style={{color:"white",margin:"10px"}}/>
                 <FaTwitter size={30} style={{color:"white",margin:"10px"}}/>
                 <FaFacebook size={30} style={{color:"white",margin:"10px"}}/>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
