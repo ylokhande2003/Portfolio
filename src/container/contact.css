@@ -1,0 +1,80 @@
+.contact {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.email {
+    background-color: var(--color-bg-variant);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid transparent;
+    height: max-content;
+    justify-self: center;
+    width: max-content;
+}
+
+.email:hover {
+    background-color: transparent;
+    transition: var(--transition);
+    transform: scale(1.022);
+    border-color: yellow;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    margin: auto;
+}
+
+input,
+textarea {
+    resize: none;
+    background-color: transparent;
+    border: 1px solid;
+    padding: 1rem;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    border-color: var(--color-primary-variant);
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+/* ---------------medium devices-------------------- */
+
+@media screen and (max-width: 1024px) {
+    .contact {
+        grid-template-columns: 100%;
+    }
+
+
+}
+
+
+
+/* ---------------small devices -------------------- */
+@media screen and (max-width: 600px) {
+    .contact {
+        grid-template-columns: 100%;
+    }
+
+    .email {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
