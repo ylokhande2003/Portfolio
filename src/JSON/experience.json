@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "img": "experience/webdevelopment.jpg",
+        "role": "Frontend Engineering Intern",
+        "company": "CVDigimax",
+        "p1": "I worked as a web developer and having responsibilities like maintaining the existing website, converting old website into its newer version. Also redesigned websites to create a more visually appealing, user-friendly experience. Handled special projects designed by senior developers. Managed projects and web strategic planning for entireteam. Writing a well scalable and understandable code resulting in increase of user satisfaction",
+        "p2": " Configured the Apache http server for hosting website to improve website loading speed by 64 percent. ",
+        "p3": "Experienced the working 6 hours a day and approximately 36 hours a week.",
+        "Technologies": "Technologies: HTML / HTML5 , CSS / CSS3 , Bootstrap 5 , JavaScript ."
+    },
+    {
+        "id": 2,
+        "img": "experience/Flutter.png",
+        "role": "Software Engineer Intern",
+        "company": "InfoSpeed Services",
+        "p1": "Worked on the DashBoard, Navbar, and Different Sections of the App Like product Upload Section of an E-billing system,Product Uploading Section of E-Commerce Section of App.",
+        "p2": " Collaborated with senior developers to design and develop software features.",
+        "p3": "Participated in team meetings, providing input and ideas for project improvements",
+        "Technologies": "Technologies: Flutter, Nodejs , JavaScript ,Php Mysqul."
+    }
+]

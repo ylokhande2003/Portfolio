@@ -1,7 +1,6 @@
 import "./img.css";
 import React from 'react'
 import Wallpaper from "../assets/wallpaper.jpeg";
-import { Link } from "react-router-dom";
 
 function img() {
   return (
@@ -13,8 +12,8 @@ function img() {
         <p> HI , I`M A STUDENT</p>
         <h1>React Developer.</h1>
         <div className="btn-parent">
-          <Link to="/project" className="btn">project</Link>
-          <Link to="/contact" className="btn-light">contact</Link>
+          <a href="#project" className="btn">project</a>
+          <a href="#contact" className="btn-light">contact</a>
         </div>
       </div>
 
@@ -22,4 +21,4 @@ function img() {
   )
 }
 
-export default img
+export default img 

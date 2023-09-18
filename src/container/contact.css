@@ -1,6 +1,6 @@
 .contact {
     display: grid;
-    grid-template-columns: 30% 60%;
+    grid-template-columns: 100%;
     gap: 2rem;
     justify-content: center;
 }
@@ -23,12 +23,16 @@
     border-color: yellow;
 }
 
+.text-light {
+    color: aliceblue;
+}
+
 form {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
-    margin: auto;
+    margin: 0 30%;
 }
 
 input,
@@ -69,12 +73,14 @@ textarea {
         width: 100%;
     }
 
+    form {
+        gap: 1rem;
+        margin: 0 20%;
+    }
+
     input,
     textarea {
         width: 100%;
-    }
-
-    .btn-primary {
-        width: 100%;
+        padding: 10px;
     }
 }

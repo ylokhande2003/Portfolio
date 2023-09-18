@@ -7,7 +7,7 @@ const Projects = function myfunction() {
   const ddata = data.map(
     (item) => {
       return (
-        <div className='projects__div'>
+        <div className='projects__div' id='project'>
 
           <div className='project_cart'>
             <img src={item.image} alt='image' />
@@ -16,7 +16,7 @@ const Projects = function myfunction() {
               <p>{item.description}</p>
               <div className='btn btn-outer'>
                 {/* <a href={item.github}>View</a> */}
-                <NavLink target='_blanck' to={item.github} className='btn-view'>View</NavLink>
+                <NavLink target='_blanck' to={item.github} className='btn-view'>Source Code</NavLink>
               </div>
             </div>
           </div>

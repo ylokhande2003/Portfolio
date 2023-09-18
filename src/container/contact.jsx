@@ -18,16 +18,10 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <section id='contact' className='container contact__container'>
+        <section id='contact' className='container contact__container' style={{ margin: "5rem 0" }}>
             <h5>Send a message</h5>
             <h2>Contact Me!</h2>
             <div className="contact">
-                <article className='email'>
-                    <AiOutlineMail />
-                    <h5>Email</h5>
-                    <h6 className="text-light">yashlokhande20@gmail.com</h6>
-                    <a href="mailto:yashlokhande20@gmail.com">Send Mail</a>
-                </article>
 
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Your Full Name' required />

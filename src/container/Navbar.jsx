@@ -5,11 +5,12 @@ import "./navbar.css";
 
 
 
-const navbar = () => {
+const Navbar = () => {
     const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
-
     const [color, setColor] = useState(false);
+    const [activeNav, setActiveNav] = useState('#');
+
+    const handleClick = () => setClick(!click);
     const changColor = () => {
         if (window.scrollY >= 100) {
             setColor(true);
@@ -17,8 +18,8 @@ const navbar = () => {
             setColor(false);
         }
     }
+
     window.addEventListener("scroll", changColor);
-    const [activeNav, setActiveNav] = useState('#')
     return (
         <div className={color ? "header header-bg" : "header"}>
             <Link to="/">
@@ -29,7 +30,7 @@ const navbar = () => {
                     <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>Home</a>
                 </li>
                 <li>
-                    <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>about</a>
+                    <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>About</a>
                 </li>
                 <li>
                     <a href="#project" onClick={() => setActiveNav('#project')} className={activeNav === '#project' ? 'active' : ''}>Projects</a>
@@ -44,7 +45,7 @@ const navbar = () => {
                     <a href="#education" onClick={() => setActiveNav('#education')} className={activeNav === '#education' ? 'active' : ''}>Education</a>
                 </li>
             </ul>
-            <div className="hamburger" onClick={handleClick}>
+            <div className="hamburger" onClick={handleClick} style={{}}>
                 {click ? (<FaTimes size={20} style={{ color: "#fff" }} />)
                     :
                     (<FaBars size={20} style={{ color: "#fff" }} />)
@@ -54,4 +55,4 @@ const navbar = () => {
     )
 }
 
-export default navbar
+export default Navbar

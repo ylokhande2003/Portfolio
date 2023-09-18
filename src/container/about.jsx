@@ -7,7 +7,7 @@ import ME from '../assets/git.jpg'
 
 const about = () => {
     return (
-        <section id='about'>
+        <section id='about' style={{ margin: "5rem 0" }}>
             <h5>Get To Know</h5>
             <h2>About Me !</h2>
             <div className='container about__container'>
@@ -16,7 +16,7 @@ const about = () => {
                         <article className="about__card">
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>1+ Years experiance in SD</small>
+                            <small>1+ Years experiance in SDE</small>
                         </article>
                         <article className="about__card">
                             <GiSkills className='about__icon' />

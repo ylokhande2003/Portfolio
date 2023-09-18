@@ -10,12 +10,13 @@
 }
 
 .header-bg {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: color(srgb-linear 0 0 0 / 0.54);
     transition: 0.5s;
 }
 
 .nav-menu {
     display: flex;
+    transition: 0.5s;
 }
 
 .nav-menu li {
@@ -36,6 +37,8 @@ a.active {
     font-size: 20px;
 }
 
+
+
 @media screen and (max-width: 1040px) {
     .nav-menu {
         flex-direction: column;
@@ -53,6 +56,9 @@ a.active {
 
     .nav-menu.active {
         left: 0;
+        width: 50%;
+        background-color: color(srgb-linear 0 0 0 / 0.54);
+        backdrop-filter: blur(10px);
     }
 
     .nav-menu li {
@@ -65,5 +71,11 @@ a.active {
 
     .hamburger {
         display: initial;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-menu.active {
+        width: 70% !important;
     }
 }
