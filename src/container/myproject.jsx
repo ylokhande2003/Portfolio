@@ -10,7 +10,7 @@ const Projects = function myfunction() {
         <div className='projects__div' id='project'>
 
           <div className='project_cart'>
-            <img src={item.image} alt='image' />
+            <img src={item.image} alt='' />
             <h2 className='project_title'>{item.name}</h2>
             <div className='description'>
               <p>{item.description}</p>

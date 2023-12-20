@@ -3,7 +3,7 @@ import React from 'react'
 import { FaAward } from 'react-icons/fa'
 import { VscFolderActive } from 'react-icons/vsc'
 import { GiSkills } from 'react-icons/gi'
-import ME from '../assets/git.jpg'
+
 
 const about = () => {
     return (

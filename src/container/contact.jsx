@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import { AiOutlineMail } from 'react-icons/ai'
+
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 const Contact = () => {
