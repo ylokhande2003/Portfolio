@@ -11,7 +11,7 @@ import Education from '../container/education'
 import Exp from '../container/allexp'
 const Home = () => {
   return (
-    <div>
+    <div id='home'>
       <Navbar />
       <Img />
       <h1 style={{ display: "flex", justifyContent: "center", margin: "10px" }}>PROJECTS</h1>
