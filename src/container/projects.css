@@ -44,7 +44,7 @@
     display: grid;
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:1050px) {
     .projects__div {
         max-width: 20rem;
         margin: 3rem;
