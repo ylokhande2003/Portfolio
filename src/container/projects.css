@@ -57,7 +57,8 @@
 
     .outer-projects {
         display: grid;
+        justify-items: center;
         grid-template-columns: 100%;
-        justify-content: center;
+
     }
 }
