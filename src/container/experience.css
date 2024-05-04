@@ -1,0 +1,66 @@
+h3 {
+    color: white;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 12px;
+    margin: 0rem 5rem;
+
+}
+
+.experience:hover {
+    background-color: transparent;
+    transform: scale(1.02);
+    transition: var(--transition);
+}
+
+
+
+.experience:hover .technologies {
+    color: yellow;
+}
+
+.experience__container p {
+    margin-bottom: 10px;
+}
+
+.checkic {
+    margin-right: 10px;
+}
+
+.role {
+    padding: 1rem;
+}
+
+.job {
+    margin-top: 1rem;
+    width: 100%;
+    height: 60%;
+    border-radius: 8px;
+}
+
+.desc {
+    padding: 1rem;
+}
+
+/* ----------------smaller and medium devices--------------------------- */
+
+@media only screen and (max-width : 1024px) {
+    .experience {
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 0rem 1rem;
+    }
+
+    .job {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+    }
+}

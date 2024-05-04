@@ -1,0 +1,60 @@
+.each {
+    margin: 1% 20%;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5%;
+    height: max-content;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    padding: 2rem 4rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: black;
+}
+
+.each:hover {
+
+    border-color: white;
+    color: black;
+    transform: translateY(5px);
+    transition: var(--transition);
+}
+
+.flexdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+
+.uni {
+    color: white;
+}
+
+/* ---------------medium devices-------------------- */
+
+@media screen and (max-width: 1024px) {
+    .flexdiv {
+        display: block;
+    }
+
+    .each {
+        padding: 1rem 2rem;
+    }
+}
+
+
+
+/* ---------------small devices -------------------- */
+@media screen and (max-width: 600px) {
+    .each {
+        margin: 2rem;
+    }
+}

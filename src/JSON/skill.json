@@ -1,0 +1,74 @@
+[
+    {
+        "image": "icons/html.png",
+        "name": "HTML / HTML5"
+    },
+    {
+        "image": "icons/css.png",
+        "name": "CSS / CSS3"
+    },
+    {
+        "image": "icons/js.png",
+        "name": "JavaScript"
+    },
+    {
+        "image": "icons/bootstrap.png",
+        "name": "Bootstrap"
+    },
+    {
+        "image": "icons/reactjs.png",
+        "name": "ReactJS"
+    },
+    {
+        "image": "icons/reactnative.png",
+        "name": "React Native"
+    },
+    {
+        "image": "icons/php.png",
+        "name": "PHP"
+    },
+    {
+        "image": "icons/mysql.png",
+        "name": "MYSQL"
+    },
+    {
+        "image": "icons/database.png",
+        "name": "Database"
+    },
+    {
+        "image": "icons/nodejs.png",
+        "name": "NodeJS"
+    },
+    {
+        "image": "icons/mongodb.png",
+        "name": "MongoDB"
+    },
+    {
+        "image": "icons/java.png",
+        "name": "Java"
+    },
+    {
+        "image": "icons/git.png",
+        "name": "Git"
+    },
+    {
+        "image": "icons/github.png",
+        "name": "Github"
+    },
+    {
+        "image": "icons/json.png",
+        "name": "JSON"
+    },
+    {
+        "image": "icons/xampp.png",
+        "name": "XAMPP"
+    },
+    {
+        "image": "icons/vscode.png",
+        "name": "VS Code"
+    },
+    {
+        "image": "icons/dsa.png",
+        "name": "Data Structures and Algorithms"
+    }
+]
