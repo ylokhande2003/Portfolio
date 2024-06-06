@@ -9,14 +9,14 @@
     {
         "id": 2,
         "name": "Atmayoga",
-        "github": "https://github.com/ylokhande2003/Atmayog",
+        "github": "http://atmayoga.free.nf/?i=1",
         "image": "Projects/atmayoga.png",
         "description": "Atmayoga => A project in which we are giving a brief guidence for doing Yoga / Exercises / Meditation for all types of peaple having different age criteria. There is a special login and dashboard for each user and Admin. In this project we provide the yoga plans according to the need of person considering the age , physic and health of user ."
     },
     {
         "id": 3,
         "name": "Portfolio",
-        "github": "https://github.com/ylokhande2003/Portfolio_",
+        "github": "https://github.com/ylokhande2003/Portfolio",
         "image": "Projects/portfoilo.png",
         "description": "Portfolio => This is a ReactJs Project where I displayed everything about myself in the form of website and anyone who want to see my resume can simply go through this project . This project is the same website where we are currently exploring on. We can also contact by using the contact form given at the bottom of page"
     },
