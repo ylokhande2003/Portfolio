@@ -26,7 +26,7 @@
         {
             "id": 4,
             "name": " Tweetertube",
-            "github": "https://github.com/ylokhande2003/Tweetertube",
+            "github": "https://tweetertube.netlify.app/",
             "Live": "https://github.com/ylokhande2003/Tweetertube",
             "image": "Projects/shikshasankalp.png",
             "description": "ShikshaSankalp => A project in which I provided a e-learning platform with three separate modules i.e , login for studennts , login for schools , login for taechers / instructors. This project includes some special types of authentication that we are collecting the Adhar card number as user's unique id for registration and login."
