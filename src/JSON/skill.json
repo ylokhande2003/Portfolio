@@ -70,5 +70,12 @@
     {
         "image": "icons/dsa.png",
         "name": "Data Structures and Algorithms"
+    },{
+        "image": "icons/cpp.png",
+        "name":"CPP"
+    },
+    {
+        "image": "icons/c.png",
+        "name":"C"
     }
 ]

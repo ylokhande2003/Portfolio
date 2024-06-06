@@ -17,6 +17,10 @@ const Projects = function myfunction() {
               <div className='btn btn-outer'>
                 {/* <a href={item.github}>View</a> */}
                 <NavLink target='_blanck' to={item.github} className='btn-view'>Source Code</NavLink>
+
+              </div>
+              <div className='btn btn-outer'>
+              <NavLink target='_blanck' to={item.Live} className={'btn-view'}>Live</NavLink>
               </div>
             </div>
           </div>

@@ -20,7 +20,8 @@
 }
 
 .btn-outer {
-    display: flex;
+    /* display: inline; */
+    justify-content: space-between;
     justify-content: center;
 }
 
