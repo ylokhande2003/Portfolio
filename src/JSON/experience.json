@@ -1,6 +1,26 @@
 [
-    {
+     {
         "id": 1,
+        "img": "experience/CORECO_LOGO_png.png",
+        "role": "Mern Stack Web Developer Intern",
+        "company": "Coreco Technologies",
+        "p1": "Workedacross the full stack, gaining hands-on experience with Java Spring Boot for backend development and REST API integration.",
+        "p2": " Participated in sprint planning,daily stand-ups and review meetings, continuously learning agile best practices and industry standards",
+        "p3": "Actively engaged with senior developers in code reviews and architectural discussions, improving software quality and maintainability.",
+        "Technologies": "Technologies: Java, Spring Boot, REST APIs, MySQL, HTML, CSS, JavaScript, Next.js, Tailwind CSS."
+    },
+    {
+        "id": 2,
+        "img": "experience/CORECO_LOGO_png.png",
+        "role": "Mern Stack Web Developer Intern",
+        "company": "Coreco Technologies",
+        "p1": " Iworked on a React.js project where I added new functionalities and made the website responsive",
+        "p2": "  Collaborated with senior developers to design and develop software features ",
+        "p3": " Participated in team meetings, providing input and ideas for project improvements.",
+        "Technologies": "Technologies: React.js , Node.js, Express.js, MongoDB, JavaScript, HTML, CSS."
+    },
+    {
+        "id": 3,
         "img": "experience/webdevelopment.jpg",
         "role": "Frontend Engineering Intern",
         "company": "CVDigimax",
@@ -10,7 +30,7 @@
         "Technologies": "Technologies: HTML / HTML5 , CSS / CSS3 , Bootstrap 5 , JavaScript ."
     },
     {
-        "id": 2,
+        "id": 4,
         "img": "experience/Flutter.png",
         "role": "Software Engineer Intern",
         "company": "InfoSpeed Services",

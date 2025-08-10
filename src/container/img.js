@@ -9,7 +9,7 @@ function img() {
         <img className="intro-img" src={Wallpaper} alt="Wallpaper" />
       </div>
       <div className="content">
-        <p> HI , I`M A STUDENT</p>
+        <p> HI , I`M A</p>
         <h1>Software Developer.</h1>
         <div className="btn-parent">
           <a href="#project" className="btn">project</a>
